@@ -1,7 +1,53 @@
 <html>
-<head>
-  <script type="text/javascript" src="main.js" ></script>
-</head>
-<body>
-</body>
+    <head>
+        <!--<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+        <title>My First JavaScript</title>-->
+        <style>
+            
+        #spoiler{
+        display: none;
+        }
+        </style>
+    </head>
+    <!--<body onload="onLoad()">-->
+     <!--    <body style=text-align:center>
+            <h1 id=Contries>Countries!</h1>
+            <p>Enter the name of a country to be added to the list!</p><br>
+            <p>Country Name: <input type:"text" id="countryInput"><input type="button" value="Add" onclick="addCountries();"></p>
+            <p id="countriesTable"></p -->>
+            
+            <form action="javascript:void(0);" method="POST" onsubmit="app.Add()"> 
+                <input type="text" id="add-name" placeholder="New country">
+                <input type="submit" value="Add">
+            </form>
+
+            <div id="spoiler" role="aria-hidden">
+                <form action="javascript:void(0);" method="POST" id="saveEdit">
+                    <input type="text" id="edit-name">
+                    <input type="submit" value="Edit" /> <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
+                </form>
+            </div>
+
+
+                <p id="counter"></p>
+
+
+            <table>
+                <tr>
+                <th>Name</th>
+                </tr>
+                <tbody id="countries">
+                </tbody>
+            </table>
+            <script type="text/javascript" src="main.js" ></script>
+    
+            
+        </body>
+    <script>
+
+    </script>
 </html>
+
+
+
+        
